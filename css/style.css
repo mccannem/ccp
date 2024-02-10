@@ -87,7 +87,7 @@ div.intro p {
 
 .travgrid {
     display: grid;
-    grid-template-columns: 200px 200px;
+    grid-template-columns: 150px 150px;
     justify-items: center;
     align-items: center;
     justify-content: center;
@@ -98,5 +98,10 @@ div.intro p {
     overflow: hidden;
     width: auto;
     align-items: center;
+    justify-items: center;
+}
+
+.travgrid p {
+    padding: 10px;
 }
 
