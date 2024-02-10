@@ -1,13 +1,13 @@
 .grid {
     display: grid;
-    grid-template-columns: 500px 500px;
+    grid-template-columns: 200px 200px;
     justify-items: center;
     align-items: center;
     justify-content: center;
 }
 
 .grid img {
-    height: 300px;
+    height: 100px;
     overflow: hidden;
     width: auto;
     align-items: center;
@@ -59,20 +59,19 @@ h1 {
 }
 
 div p.index {
-    margin: 0px 300px 20px 300px;
+    margin: 0px 1em 20px 1em;
     font-size: large;
 }
 
 img {
-    height: 300px;
-    width: auto;
+    max-height: auto;
+    width: 200px;
 }
 
 div.intro {
     display: grid;
-    grid-template-columns: 500px 500px;
+    grid-template-columns: 200px;
     margin: 20px;
-    padding-left: 100px;
 }
 
 div.intro p {
@@ -100,3 +99,4 @@ div.intro img {
     height: 350px;
     width: 550px;
 }
+
